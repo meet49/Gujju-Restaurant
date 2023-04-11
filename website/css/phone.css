@@ -1,0 +1,60 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+   padding: 0px 7px;
+   padding-bottom: 8px;
+}
+#servies{
+    flex-direction: column;
+    
+
+ }
+ #servies .box{
+   
+    padding: 11px 37px;
+    margin: 15px;
+    margin-left: -21px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
+   
+
+ }
+ #servies .box img{
+   width: 211px;
+ }
+ #home{
+    height: 280px;
+    padding: 3px 30px;
+
+ }
+ #home::before{
+    height: 620px;
+ }
+ #home h1{
+    font-size: 28px;
+    
+ }
+ #home p{
+    font-size: 13px;
+    padding: 3px 45px
+ }
+ .btn{
+    font-size: 17px;
+    padding: 4PX 8PX;    
+ }
+ .review{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+ 
+ }
+ .review img{
+   padding: 4px 5px;
+   height: 300px;
+   width: 321px;
+   margin-bottom: 15px;
+    
+ }

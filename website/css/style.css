@@ -1,0 +1,221 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+   scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: 'Kaushan Script', cursive;
+}
+
+#logo{
+    margin: 5px 18px;
+}
+
+#logo img{
+    height: 83px;
+    margin: 1px 1px;
+    
+}
+
+#navbar ul{
+    display: flex;
+
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.4;
+}
+
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+    color: white;
+   display: block;
+   padding: 3px 20px;
+   border-radius: 20px;
+   text-decoration: none; 
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: aliceblue; 
+ 
+ }
+
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    height: 445px;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ #home::before{
+    content: "";
+    background:url('../img/background1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.99;
+ }
+
+ #home h1{
+    font-size: 3.8rem;
+    padding: 12px;
+    color: azure;
+    margin-top: 145px;
+    font-family: 'Lobster Two', cursive;
+    
+ }
+ #home p{
+    font-size: 1rem;
+    padding: 4px;
+    color: azure;
+    font-family: 'Kaushan Script', cursive;
+ }
+ .btn{
+    border: 2px solid whitesmoke;
+    background: #000;
+    color: aliceblue;
+    height: 50px;
+    width: 133px;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
+ }
+ .center{
+    text-align: center;
+ }
+ #servies{
+    display: flex;
+    margin: 34px;
+    font-family: 'Lobster Two', cursive;
+ }
+ .servies-contain h1{
+   font-family: 'Lobster Two', cursive;
+   font-size: 50px;
+}
+ #servies .box{
+    border: 4px solid red;
+    margin: 2px 10px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    transition: transform 1s;
+    background: rgb(233, 231, 231);
+ }
+ #servies .btn{
+   border: 4px solid red;
+   margin: 2px 10px;
+   align-items: center;
+   padding: 20px;
+   border-radius: 30px;
+   transition: transform 1s;
+   background: rgb(233, 231, 231);
+}
+ #servies .box:hover{
+   transform: scale(1.05);
+   cursor: pointer;
+   
+}
+ #servies .box img{
+    height: 320px;
+    width: 348px;
+    margin: auto;
+    display: block;
+ }
+ #servies .box p{
+  align-items: center;
+  margin: 20px;
+  font-family: 'Kaushan Script', cursive;
+}
+#servies  .btn{
+   border: 2px solid whitesmoke;
+   background: #000;
+   color: aliceblue;
+   height: 50px;
+   width: 100%;
+   padding: 2px;
+   margin-top: 20px;
+   font-size: 20px;
+   border-radius: 14px;
+   cursor: pointer;
+   font-family: 'Kaushan Script', cursive;
+   
+ }
+.servies-contain{
+   margin-top: 204px;
+}
+.contect{
+   display: block;
+   margin left: 50px;
+   justify-content: center;
+}
+.contect input{
+   width: 100%;
+   padding: 10px;
+}
+.review{
+   /* border: 2px solid red; */
+   display: flex;
+   flex-direction: row;
+   margin-top: 30px;
+   transition: transform 1s;
+   margin-bottom: 30px;
+
+}
+.review img{
+   height: 320px;
+    width: 348px;
+    margin: auto;
+    display: block;
+   
+}
+.review img:hover{
+   transform: scale(1.1);
+   cursor: pointer;
+}
+.footer
+{
+	height:140px;
+	width:100%;
+	background-color:black;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+   font-family: 'Kaushan Script', cursive;
+}
+.footerb
+{
+	height: 115px;
+	width:400px;
+	float:left;
+	color:white;
+	text-align:center;
+}
+.footerb a
+{
+	text-decoration: none;
+   color: white;
+}
